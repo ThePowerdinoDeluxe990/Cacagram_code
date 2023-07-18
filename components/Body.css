@@ -1,0 +1,39 @@
+
+body{
+    background:linear-gradient(rgb(153, 153, 255),rgb(77, 77, 87));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.userImage{
+    max-width: 75px;
+    max-height: 50px;
+    padding-left: 20px;
+}
+
+.user{
+    
+    padding-bottom:80px;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.usertitle{
+   
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+.photos{
+    display:grid;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.userinfo{
+    display:flex;
+}
